@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {  
+  width: 40%;
+  font-family: 'Montserrat', sans-serif;
+  color: gray;
+  background-image: linear-gradient(120deg, paleturquoise 0%, snow 100%);
+}
+
+#city-name {
+  width: 300px;
+  height: 30px;
+  text-align: center;
+  background:rgb(250, 248, 215);
+  border:rgb(183, 243, 240);
+  border-radius: 5%;
+}
+
+#city-btn {
+  width: 150px;
+  height: 30px;
+  color: gray;
+  background:rgb(252, 247, 182);
+  border:rgb(183, 243, 215);
+  border-radius: 5%;
+}
+
+#input-container {
+  height: 100px;
+  background: rgb(111, 247, 217);
+  text-align: center;
+  line-height: 100px;
+  border-radius: 5%;
+}
+
+#weather-container {
+  border-radius: 5%;
+}
+
+
+#city {
+  font-size: 65px;
+}
+
+#weather {
+  font-size: 50px;
+  margin: 0;
+}
+
+#temp {
+  font-size: 50px;
+  margin: 0;
+  font-weight: bold;
+}
+
